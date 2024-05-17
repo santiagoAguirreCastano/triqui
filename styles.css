@@ -29,8 +29,8 @@ h1 {
 }
 
 .container-game {
-  width: 50rem;
-  height: 40rem;
+  width: 60rem;
+  height: 100em;
   background: linear-gradient(45deg, #3f8ad0, #95d2ea);
   display: flex;
   justify-content: space-around;
@@ -49,7 +49,7 @@ h1 {
 .cpu > h2 {
   margin-top: 10rem;
   font-size: 2rem;
-  color: #273c7a;
+  color: #e7ebfa;
 }
 
 .buttons-user,
@@ -64,7 +64,7 @@ h1 {
   width: 5rem;
   height: 5rem;
   margin: 0.5rem;
-  border: double 5px #119570;
+  border: double 5px #f8f8f8;
   border-radius: 15px;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@ h1 {
 }
 
 .buttons-user > button:hover {
-  border: double #1e90ff 2px;
+  border: double #ffffff 2px;
 }
 
 .buttons > button > img:hover {
@@ -103,7 +103,7 @@ h1 {
 .choice > h2 {
   font-size: 2rem;
   font-weight: 900;
-  color: #095c1f;  
+  color: #7512e6;  
 }
 
 .cpu >.option-h2 {
@@ -130,8 +130,6 @@ h1 {
 #cpu-points {
   font-size: 2rem;
   font-weight: 900;
-  border: groove 3px #ffffff;
-  background-color: #959ea5; 
   width: 2rem;
   display: flex;  
   justify-content: center;
@@ -150,7 +148,7 @@ h1 {
 .h3-result {
   font-size: 1.5rem;
   position: relative;
-  top: 2rem;
+  top: 40rem;
   z-index: 1;  
 }
 
